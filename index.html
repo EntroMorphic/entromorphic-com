@@ -74,7 +74,7 @@
       <div class="t">
         <div class="eyebrow">The thesis</div>
         <h2>Find the structure. Build it exactly.</h2>
-        <p>Every computational problem has mathematical structure in it. We study it until we can state it precisely, then build it directly into small, deterministic systems: ternary signatures, lookup tables, a few kilobytes of C. The work runs from theory, through experiment, to real hardware.</p>
+        <p>Every computational problem has mathematical structure in it. We study it until we can state it precisely, then build it directly into small, deterministic systems. The work runs from theory, through experiment, to real hardware.</p>
       </div>
       <a class="tlink" href="Research.html">The full thesis <span class="arw" aria-hidden="true">→</span></a>
     </div>
@@ -97,24 +97,24 @@
     </div>
     <div class="projgrid reveal">
       <article class="proj">
-        <div class="top"><h3 class="name">LCVDB<span class="field">Ternary vector retrieval</span></h3><span class="tag validation"><span class="dot"></span>Validation</span></div>
-        <p class="brief">Compact ternary representations for similarity search across large collections.</p>
+        <div class="top"><h3 class="name">LCVDB<span class="field">Vector retrieval</span></h3><span class="tag validation"><span class="dot"></span>Validation</span></div>
+        <p class="brief">Similarity search across very large collections, in a compact footprint.</p>
         <div class="foot"><span class="fact">Reported: 100% recall@1 · 6.5M vectors</span></div>
       </article>
       <article class="proj">
         <div class="top"><h3 class="name">Guanaco<span class="field">Model compression</span></h3><span class="tag validation"><span class="dot"></span>Validation</span></div>
-        <p class="brief">Structured ternary lookup tables that shrink a model and keep its behavior.</p>
+        <p class="brief">Smaller language models that keep their original behavior exactly.</p>
         <div class="foot"><span class="fact">Reported: 3.01× lossless · LFM2.5-350M</span></div>
       </article>
       <article class="proj">
         <div class="top"><h3 class="name">reflex-os<span class="field">Embedded systems</span></h3><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
-        <p class="brief">A ternary soft-silicon operating environment for microcontrollers.</p>
+        <p class="brief">An operating environment that runs machine intelligence on microcontrollers.</p>
         <div class="foot"><span class="fact">Prototype on ESP32-class hardware</span></div>
       </article>
       <article class="proj">
         <div class="top"><h3 class="name">SSTT<span class="field">Classification</span></h3><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
-        <p class="brief">Image classification from ternary signatures, an inverted index and integer operations.</p>
-        <div class="foot"><span class="fact">Reported: 97.53% MNIST · zero learned parameters</span></div>
+        <p class="brief">Image classification with zero learned parameters, in about a millisecond.</p>
+        <div class="foot"><span class="fact">Reported: 97.53% on MNIST</span></div>
       </article>
     </div>
   </div>
@@ -131,7 +131,7 @@
       <div class="body">
         <div class="badge"><span class="dot"></span>FlynnComm · Graduated 2026 · Equipment health</div>
         <h3>Flynn</h3>
-        <p class="desc">An equipment-health monitor developed in the lab. Its 8,480-byte firmware runs on the monitored hardware, sets a fixed reference from verified healthy operation, and measures every change against it.</p>
+        <p class="desc">An equipment-health monitor developed in the lab. Its 8,480-byte firmware runs directly on the machine it watches and learns what healthy looks like for that machine.</p>
         <div class="why"><b>Reported result</b>On NASA's IMS bearing dataset, Flynn flagged developing faults about 17 days before failure and ran a 120-hour test with zero false positives. FlynnComm is taking it to market.</div>
         <div class="actions">
           <a class="btn" href="https://inlikeflynn.io" target="_blank" rel="noopener">Visit FlynnComm</a>
@@ -139,7 +139,7 @@
         </div>
       </div>
       <div class="visual" data-live="https://inlikeflynn.io">
-        <div class="mark"><span class="big">8,480 bytes</span>single-file C99 · zero heap after init</div>
+        <div class="mark"><span class="big">8,480 bytes</span>on-device equipment health</div>
         <div class="stats"><span>False positives / 120 h</span><b>0</b><span>Advance warning</span><b>~17 days</b><span>Runs on</span><b>the device</b></div>
         <a class="visual-link" href="https://inlikeflynn.io" target="_blank" rel="noopener" aria-label="Visit inlikeflynn.io (opens in a new tab)"><span class="portal-hint">inlikeflynn.io<span class="live-tag"> · live</span> <span class="arw">↗</span></span></a>
       </div>
@@ -157,7 +157,7 @@
     </div>
     <div class="writing-list reveal">
       <a class="wrow soon" href="Writing.html" data-kind="report"><span class="date">In preparation</span><span class="ti">Flynn: equipment-health monitoring on NASA IMS<span class="k">Early fault detection, and a 120-hour run with zero false positives.</span></span><span class="kind">Report</span></a>
-      <a class="wrow soon" href="Writing.html" data-kind="report"><span class="date">In preparation</span><span class="ti">LCVDB: scaling ternary vector retrieval<span class="k">Sharding, candidate selection and recall across 6.5 million vectors.</span></span><span class="kind">Report</span></a>
+      <a class="wrow soon" href="Writing.html" data-kind="report"><span class="date">In preparation</span><span class="ti">LCVDB: scaling vector retrieval<span class="k">Perfect recall across 6.5 million vectors, and what it took to get there.</span></span><span class="kind">Report</span></a>
       <a class="wrow soon" href="Writing.html" data-kind="essay"><span class="date">In preparation</span><span class="ti">The null baseline is mandatory<span class="k">A 98.68% result, matched by a zero-parameter identity function.</span></span><span class="kind">Essay</span></a>
     </div>
   </div>
