@@ -141,7 +141,7 @@ nav.site.open .menu-toggle .bars::after{transform:translateY(-6px) rotate(-45deg
 .hero h1 .accent,.hero .hero-subhead .accent{color:var(--accent)}
 .hero h1,.hero .hero-subhead{transition:opacity .22s ease,filter .22s ease}
 .hero.swapping h1,.hero.swapping .hero-subhead{opacity:.12;filter:blur(6px)}
-.hero .hero-subhead{margin-top:18px;font-family:var(--mono);font-size:clamp(19px,2vw,26px);line-height:1.25;color:var(--head);max-width:22ch}
+.hero .hero-subhead{margin-top:18px;font-family:var(--mono);font-size:clamp(19px,2vw,26px);line-height:1.25;color:var(--head);max-width:34ch}
 .hero .sub{margin-top:24px;font-size:17px;line-height:1.7;color:var(--dim);max-width:52ch}
 .hero .cta-row{display:flex;gap:36px;margin-top:38px;align-items:center;flex-wrap:wrap}
 .spinout-link{position:relative}
@@ -194,6 +194,7 @@ nav.site.open .menu-toggle .bars::after{transform:translateY(-6px) rotate(-45deg
 .proj:hover{background:var(--panel2)}
 .proj .top{display:flex;justify-content:space-between;align-items:center;gap:16px}
 .proj .name{font-family:var(--mono);font-size:20px;color:var(--head)}
+.proj .name .field{display:block;margin-top:4px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
 .proj .brief{font-size:14px;color:var(--dim);line-height:1.66;max-width:46ch}
 .proj .foot{margin-top:auto;padding-top:14px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:16px}
 .proj .foot .fact{font-family:var(--mono);font-size:11px;color:var(--faint);letter-spacing:.04em}

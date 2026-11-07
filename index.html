@@ -52,7 +52,7 @@
       <p class="hero-subhead"><span class="hot">Bare-metal</span> <span>machine intelligence.</span></p>
       <p class="sub">We surface the latent intelligence in the silicon you already have.</p>
       <div class="cta-row">
-        <a class="btn" href="About.html#work">Bring us a problem</a>
+        <a class="btn" href="Research.html">Explore the research</a>
         <a class="tlink hot spinout-link" href="Companies.html">See our first spinout <span class="arw" aria-hidden="true">→</span><span class="flynn-reveal" aria-hidden="true">FlynnComm: get in like Flynn!</span></a>
       </div>
     </div>
@@ -64,7 +64,7 @@
     <div class="cell"><div class="k">8,480</div><div class="l">Bytes in Flynn, our first graduate</div></div>
     <div class="cell"><div class="k">0</div><div class="l">False positives in 120 hours on NASA bearing data</div></div>
     <div class="cell"><div class="k">14</div><div class="l">Projects in the lab</div></div>
-    <div class="cell"><div class="k">2</div><div class="l">In independent validation</div></div>
+    <div class="cell"><div class="k">2</div><div class="l">In validation</div></div>
   </div></div>
 </section>
 
@@ -74,15 +74,15 @@
       <div class="t">
         <div class="eyebrow">The thesis</div>
         <h2>Find the structure. Build it exactly.</h2>
-        <p>Every hard problem has structure in it. We research until we find it, then build it directly into small, deterministic systems: ternary signatures, lookup tables, a few kilobytes of C. The result runs on a microcontroller, gives the same answer every time, and holds up in front of an auditor.</p>
+        <p>Every computational problem has mathematical structure in it. We study it until we can state it precisely, then build it directly into small, deterministic systems: ternary signatures, lookup tables, a few kilobytes of C. The work runs from theory, through experiment, to real hardware.</p>
       </div>
       <a class="tlink" href="Research.html">The full thesis <span class="arw" aria-hidden="true">→</span></a>
     </div>
     <div class="lifecycle reveal">
-      <div class="lc on"><div class="ph">01 · Research</div><div class="d">A hard problem, funded by a sponsor or worked in the open.</div></div>
-      <div class="lc on"><div class="ph">02 · Prototype</div><div class="d">A working system with numbers attached.</div></div>
-      <div class="lc"><div class="ph">03 · Validation</div><div class="d">Independent tests on the hardware it will ship on.</div></div>
-      <div class="lc"><div class="ph">04 · Graduation</div><div class="d">A company with its own name, domain and customers.</div></div>
+      <div class="lc on"><div class="ph">01 · Research</div><div class="d">Pose a precise question and state a testable hypothesis.</div></div>
+      <div class="lc on"><div class="ph">02 · Prototype</div><div class="d">Working code or hardware, with measured performance.</div></div>
+      <div class="lc"><div class="ph">03 · Validate</div><div class="d">Controlled experiments, reproducible benchmarks, and independent verification where available.</div></div>
+      <div class="lc"><div class="ph">04 · Commercialize</div><div class="d">Partnerships, licensing, or a company of its own.</div></div>
     </div>
   </div>
 </section>
@@ -92,29 +92,29 @@
 <section class="section">
   <div class="wrap">
     <div class="section-head reveal">
-      <div class="t"><div class="eyebrow">In the lab</div><h2>Work in progress, with receipts.</h2><p>Four of the fourteen, each with its stage and the number it stands on.</p></div>
+      <div class="t"><div class="eyebrow">In the lab</div><h2>Work in progress, with receipts.</h2><p>Four of fourteen. Each starts from a stated hypothesis and is judged by a number.</p></div>
       <a class="tlink" href="Projects.html">All 14 projects <span class="arw" aria-hidden="true">→</span></a>
     </div>
     <div class="projgrid reveal">
       <article class="proj">
-        <div class="top"><h3 class="name">LCVDB</h3><span class="tag validation"><span class="dot"></span>Validation</span></div>
-        <p class="brief">A ternary vector database. Sharding lifted held-out recall from 92% to a clean 100%.</p>
-        <div class="foot"><span class="fact">100% R@1 · 6.5M vectors</span></div>
+        <div class="top"><h3 class="name">LCVDB<span class="field">Ternary vector retrieval</span></h3><span class="tag validation"><span class="dot"></span>Validation</span></div>
+        <p class="brief">Compact ternary representations for similarity search across large collections.</p>
+        <div class="foot"><span class="fact">Reported: 100% recall@1 · 6.5M vectors</span></div>
       </article>
       <article class="proj">
-        <div class="top"><h3 class="name">Guanaco</h3><span class="tag validation"><span class="dot"></span>Validation</span></div>
-        <p class="brief">Ternary lookup-table compression for language models: 3.01× smaller, faster than the original, and lossless.</p>
-        <div class="foot"><span class="fact">3.01× · lossless · LFM2.5-350M</span></div>
+        <div class="top"><h3 class="name">Guanaco<span class="field">Model compression</span></h3><span class="tag validation"><span class="dot"></span>Validation</span></div>
+        <p class="brief">Structured ternary lookup tables that shrink a model and keep its behavior.</p>
+        <div class="foot"><span class="fact">Reported: 3.01× lossless · LFM2.5-350M</span></div>
       </article>
       <article class="proj">
-        <div class="top"><h3 class="name">reflex-os</h3><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
-        <p class="brief">A ternary soft-silicon operating system for ESP32-class chips. It is the adaptive layer that runs beside Flynn's certifiable core.</p>
-        <div class="foot"><span class="fact">ESP32-C6 + ESP32 · hardware-validated</span></div>
+        <div class="top"><h3 class="name">reflex-os<span class="field">Embedded systems</span></h3><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
+        <p class="brief">A ternary soft-silicon operating environment for microcontrollers.</p>
+        <div class="foot"><span class="fact">Prototype on ESP32-class hardware</span></div>
       </article>
       <article class="proj">
-        <div class="top"><h3 class="name">SSTT</h3><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
-        <p class="brief">Image classification with zero learned parameters: ternary signatures, an inverted index and integer lookups.</p>
-        <div class="foot"><span class="fact">97.53% MNIST · ~1 ms</span></div>
+        <div class="top"><h3 class="name">SSTT<span class="field">Classification</span></h3><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
+        <p class="brief">Image classification from ternary signatures, an inverted index and integer operations.</p>
+        <div class="foot"><span class="fact">Reported: 97.53% MNIST · zero learned parameters</span></div>
       </article>
     </div>
   </div>
@@ -125,17 +125,17 @@
 <section class="section">
   <div class="wrap">
     <div class="section-head reveal">
-      <div class="t"><div class="eyebrow hot">Graduated</div><h2>Flynn, our first graduate.</h2><p>Flynn left the lab in 2026 and now operates as FlynnComm.</p></div>
+      <div class="t"><div class="eyebrow hot">From research to application</div><h2>Flynn, our first graduate.</h2><p>Flynn graduated from the lab in 2026.</p></div>
     </div>
     <div class="spinout reveal">
       <div class="body">
         <div class="badge"><span class="dot"></span>FlynnComm · Graduated 2026 · Equipment health</div>
         <h3>Flynn</h3>
-        <p class="desc">An equipment-health monitor in 8,480 bytes of C99. It learns the machine it watches, locks its threshold, and runs bit-identically on any silicon, entirely on the device. FlynnComm is in discussions with industrial and aerospace buyers.</p>
-        <div class="why"><b>Why it graduated</b>Buyers can check every claim themselves. On the NASA IMS bearing dataset it ran 120 hours with zero false positives and called failures about 17 days early. It is deterministic by design and built for DO-178C and IEC 61508 certification.</div>
+        <p class="desc">An equipment-health monitor developed in the lab. Its 8,480-byte firmware runs on the monitored hardware, sets a fixed reference from verified healthy operation, and measures every change against it.</p>
+        <div class="why"><b>Reported result</b>On NASA's IMS bearing dataset, Flynn flagged developing faults about 17 days before failure and ran a 120-hour test with zero false positives. FlynnComm is taking it to market.</div>
         <div class="actions">
-          <a class="btn" href="https://inlikeflynn.io" target="_blank" rel="noopener">inlikeflynn.io</a>
-          <a class="tlink" href="Research.html#artifacts">The research behind it <span class="arw" aria-hidden="true">→</span></a>
+          <a class="btn" href="https://inlikeflynn.io" target="_blank" rel="noopener">Visit FlynnComm</a>
+          <a class="tlink" href="Research.html#artifacts">Read the Flynn research <span class="arw" aria-hidden="true">→</span></a>
         </div>
       </div>
       <div class="visual" data-live="https://inlikeflynn.io">
@@ -152,13 +152,13 @@
 <section class="section">
   <div class="wrap">
     <div class="section-head reveal">
-      <div class="t"><div class="eyebrow">Writing</div><h2>The record.</h2><p>Essays argue the thesis, lab notes track the work, and reports show the results with their baselines. The first three are being written now.</p></div>
+      <div class="t"><div class="eyebrow">Research record</div><h2>The record.</h2><p>Reports carry methods, benchmarks and baselines. Lab notes track experiments in progress. Essays work through what the results mean.</p></div>
       <a class="tlink" href="Writing.html">All writing <span class="arw" aria-hidden="true">→</span></a>
     </div>
     <div class="writing-list reveal">
-      <a class="wrow soon" href="Writing.html" data-kind="report"><span class="date">Forthcoming</span><span class="ti">Flynn on NASA IMS: the validation dossier<span class="k">Zero false positives over 120 hours, and about 17 days of advance warning.</span></span><span class="kind">Report</span></a>
-      <a class="wrow soon" href="Writing.html" data-kind="report"><span class="date">Forthcoming</span><span class="ti">LCVDB: from 92% to 100% recall at 6.5M vectors<span class="k">How sharding broke the candidate-recall ceiling.</span></span><span class="kind">Report</span></a>
-      <a class="wrow soon" href="Writing.html" data-kind="essay"><span class="date">Forthcoming</span><span class="ti">The null baseline is mandatory<span class="k">A 98.68% result, matched by a zero-parameter identity function.</span></span><span class="kind">Essay</span></a>
+      <a class="wrow soon" href="Writing.html" data-kind="report"><span class="date">In preparation</span><span class="ti">Flynn: equipment-health monitoring on NASA IMS<span class="k">Early fault detection, and a 120-hour run with zero false positives.</span></span><span class="kind">Report</span></a>
+      <a class="wrow soon" href="Writing.html" data-kind="report"><span class="date">In preparation</span><span class="ti">LCVDB: scaling ternary vector retrieval<span class="k">Sharding, candidate selection and recall across 6.5 million vectors.</span></span><span class="kind">Report</span></a>
+      <a class="wrow soon" href="Writing.html" data-kind="essay"><span class="date">In preparation</span><span class="ti">The null baseline is mandatory<span class="k">A 98.68% result, matched by a zero-parameter identity function.</span></span><span class="kind">Essay</span></a>
     </div>
   </div>
 </section>
@@ -166,8 +166,8 @@
 <section class="section">
   <div class="wrap">
     <div class="cta-band reveal">
-      <div><div class="eyebrow">Work with us</div><h2>Bring us a problem that has to fit on the chip.</h2><p>Sponsored research on constrained and safety-critical compute. You get the lab on your problem, results as they land, and first look at anything that graduates.</p></div>
-      <a class="btn" href="About.html#work">Start the conversation</a>
+      <div><div class="eyebrow">Work with us</div><h2>Bring us a problem that has to fit on the chip.</h2><p>We take on sponsored research, experimental development and technical validation for engineering teams, research institutions and industry partners. You get the lab on your problem, results as they land, and first look at anything that graduates.</p></div>
+      <a class="btn" href="About.html#work">Start a conversation</a>
     </div>
   </div>
 </section>
@@ -176,7 +176,7 @@
 <footer class="site">
   <div class="wrap">
     <div class="cols">
-      <div class="col"><div class="wm">ENTROMORPHIC</div><p class="about">An independent research lab building machine intelligence for equipment that has to be right the first time.</p></div>
+      <div class="col"><div class="wm">ENTROMORPHIC</div><p class="about">Independent research in computational intelligence, from mathematical discovery to working systems.</p></div>
       <div class="col"><p class="fh">Research</p><a href="Research.html">Thesis</a><a href="Research.html#methodology">Methodology</a><a href="Research.html#artifacts">Validated artifacts</a></div>
       <div class="col"><p class="fh">Lab</p><a href="Projects.html">Projects</a><a href="Companies.html">Companies</a><a href="Writing.html">Writing</a></div>
       <div class="col"><p class="fh">Company</p><a href="About.html">About</a><a href="About.html#work">Work with us</a><a href="mailto:hello@entromorphic.com">hello@entromorphic.com</a></div>
