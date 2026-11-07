@@ -57,8 +57,8 @@
     <div class="twocol">
       <div class="reveal panel-read"><div class="eyebrow">Thesis</div><h2 class="mt-12">Entropy is structure.</h2></div>
       <div class="reveal panel-read">
-        <p class="lede">Every hard problem carries structure, including the parts that look like noise. <em>Our research names that structure precisely.</em></p>
-        <p class="muted mt-20">A structure that has been named can be built directly: small, exact and deterministic. Built that way, machine intelligence runs on the hardware already in the field and gives answers an auditor can trace.</p>
+        <p class="lede">Hard problems carry structure, including the parts that look like noise. <em>We study it until we can state it precisely.</em></p>
+        <p class="muted mt-20">Then we build it directly: small, exact and deterministic. Built that way, machine intelligence runs on the hardware already in the field and gives answers an auditor can trace.</p>
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@
       <li class="step"><div class="idx" aria-hidden="true">01</div><div><h3>Research</h3><p>We start from a hard, specific problem in constrained or safety-critical compute and state a testable hypothesis about its structure. Sponsors fund the work, or we do it in the open.</p><p class="gate"><b>Gate</b>A hypothesis precise enough to fail.</p></div></li>
       <li class="step"><div class="idx" aria-hidden="true">02</div><div><h3>Prototype</h3><p>The hypothesis becomes working code or hardware, with its performance measured on the hardware it targets.</p><p class="gate"><b>Gate</b>It beats the null baseline.</p></div></li>
       <li class="step"><div class="idx" aria-hidden="true">03</div><div><h3>Validate</h3><p>Results are reproduced on real silicon and verified independently where possible. This is where a research result becomes a claim someone can rely on.</p><p class="gate"><b>Gate</b>A number the lab will put its name to.</p></div></li>
-      <li class="step"><div class="idx" aria-hidden="true">04</div><div><h3>Commercialize</h3><p>Validated work with real demand leaves the lab through licensing, partnership, or a company of its own. The lab keeps provenance and a stake.</p><p class="gate"><b>Gate</b>A customer. Flynn was the first through.</p></div></li>
+      <li class="step"><div class="idx" aria-hidden="true">04</div><div><h3>Commercialize</h3><p>Validated work with real demand leaves the lab through licensing, partnership, or a company of its own. The lab keeps provenance and a stake.</p><p class="gate"><b>Gate</b>Demand from outside the lab. Flynn was the first through.</p></div></li>
     </ol>
   </div>
 </section>
@@ -88,9 +88,9 @@
       <div class="t"><div class="eyebrow">Standards</div><h2>How the lab keeps itself honest.</h2><p>Four rules apply to every number the lab publishes.</p></div>
     </div>
     <div class="cardgrid c2 reveal">
-      <div class="card"><div class="n">STANDARD 01</div><h3>Null baselines are mandatory.</h3><p>Every result is measured against the simplest method that could explain it. The rule dates from a celebrated 98.68% result that a zero-parameter identity function matched exactly.</p></div>
+      <div class="card"><div class="n">STANDARD 01</div><h3>Null baselines are mandatory.</h3><p>Every report includes the simplest method that could explain its result, measured the same way. The rule dates from a celebrated 98.68% result that a zero-parameter identity function matched exactly.</p></div>
       <div class="card"><div class="n">STANDARD 02</div><h3>Numbers travel with their scope.</h3><p>The dataset, the configuration and the hardware go wherever a result goes. A claim is only as good as the conditions attached to it.</p></div>
-      <div class="card"><div class="n">STANDARD 03</div><h3>Determinism is tested.</h3><p>Same input, same output, bit for bit, on every chip a system ships to. The lab checks it on the hardware itself.</p></div>
+      <div class="card"><div class="n">STANDARD 03</div><h3>Determinism is tested.</h3><p>Same input, same output, bit for bit, on the hardware a system targets. The lab checks it on that hardware.</p></div>
       <div class="card"><div class="n">STANDARD 04</div><h3>Failures stay in the record.</h3><p>Ideas that underperform are reported alongside the ones that work. A research record with only good news is a sales brochure.</p></div>
     </div>
   </div>
@@ -106,11 +106,11 @@
     </div>
     <div class="cardgrid c2 reveal">
       <div class="card"><div class="n">FLYNN · EQUIPMENT HEALTH</div><h3>17 days of warning, zero false positives</h3><p>On NASA's IMS bearing dataset, Flynn flagged developing faults about 17 days before failure, running as 8,480 bytes of firmware on the monitored hardware.</p><a class="tlink" href="Companies.html">See Flynn <span class="arw" aria-hidden="true">→</span></a></div>
-      <div class="card"><div class="n">LCVDB · VECTOR RETRIEVAL</div><h3>100% recall@1 across 6.5M vectors</h3><p>Held-out recall rose from 92% to 100% at multimillion-vector scale, in the evaluated configuration.</p><span class="pending">Report in preparation</span></div>
+      <div class="card"><div class="n">LCVDB · VECTOR RETRIEVAL</div><h3>100% recall@1 across 6.5M vectors</h3><p>Held-out recall rose from 92% to 100% at that scale.</p><span class="pending">Report in preparation</span></div>
       <div class="card"><div class="n">THE REFLEX · SIGNAL PERCEPTION</div><h3>430 Hz classification in peripheral hardware</h3><p>Wireless-signal classification on an ESP32-C6, carried out by the chip's peripherals. Accuracy is 100% across the four signal patterns tested.</p><span class="pending">Paper in preparation</span></div>
       <div class="card"><div class="n">MOGWAI · LANGUAGE INTERFACES</div><h3>4.3 ms per command on a stock ESP32</h3><p>Natural-language commands routed to device actions on the microcontroller itself, with host and device results matching exactly.</p><span class="pending">Report in preparation</span></div>
       <div class="card"><div class="n">SSTT · CLASSIFICATION</div><h3>97.53% on MNIST with zero learned parameters</h3><p>86.54% on Fashion-MNIST from the same system, at about a millisecond per image.</p><span class="pending">Report in preparation</span></div>
-      <div class="card"><div class="n">GUANACO · MODEL COMPRESSION</div><h3>3.01× smaller, lossless</h3><p>On LFM2.5-350M, the compressed model matches the original's output and runs faster: 293.8 tokens per second against a 278.8 baseline.</p><span class="pending">Report in preparation</span></div>
+      <div class="card neg"><div class="n">THE REFLEX · NEGATIVE RESULTS</div><h3>Two ideas that failed their tests</h3><p>Hebbian learning on the low-power core measured at noise level, and kinetic attention made results worse. Both stay in the record, as Standard 04 requires.</p><span class="pending">Reported in the project repository</span></div>
     </div>
   </div>
 </section>
