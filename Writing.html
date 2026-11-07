@@ -4,14 +4,18 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Writing — EntroMorphic</title>
-<meta name="description" content="Essays, lab notes and reports from EntroMorphic, an independent research lab." />
+<meta name="description" content="The EntroMorphic research record: reports, lab notes and essays." />
 <link rel="canonical" href="https://entromorphic.com/Writing.html" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="EntroMorphic" />
 <meta property="og:title" content="Writing — EntroMorphic" />
-<meta property="og:description" content="Essays, lab notes and reports from the lab." />
+<meta property="og:description" content="Reports, lab notes and essays from the lab." />
 <meta property="og:url" content="https://entromorphic.com/Writing.html" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="https://entromorphic.com/og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="EntroMorphic: Entropy is structure. Bare-metal machine intelligence." />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="theme-color" content="#000000" />
 <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,8 +51,8 @@
 <header class="pagehead">
   <div class="wrap">
     <div class="crumb">Writing</div>
-    <h1>One publication, three collections.</h1>
-    <p class="intro">Essays carry the thesis, lab notes track the projects, and reports document validated results. Spinout origin stories live here too. The first pieces are being written now, and each entry below goes live when it's ready.</p>
+    <h1>The research record.</h1>
+    <p class="intro">Reports carry methods, benchmarks and baselines. Lab notes track experiments in progress. Essays work through what the results mean. Each entry goes live when it's ready.</p>
   </div>
 </header>
 
@@ -56,19 +60,21 @@
   <div class="wrap">
     <div class="filters reveal" role="group" aria-label="Filter by collection">
       <button class="chip" type="button" data-filter="all" aria-pressed="true">All</button>
-      <button class="chip" type="button" data-filter="essay" aria-pressed="false">Essays</button>
-      <button class="chip" type="button" data-filter="labnote" aria-pressed="false">Lab notes</button>
       <button class="chip" type="button" data-filter="report" aria-pressed="false">Reports</button>
+      <button class="chip" type="button" data-filter="labnote" aria-pressed="false">Lab notes</button>
+      <button class="chip" type="button" data-filter="essay" aria-pressed="false">Essays</button>
     </div>
     <p class="sr-only" data-filter-status aria-live="polite"></p>
     <div class="writing-list reveal">
-      <div class="wrow soon" data-kind="report"><span class="date">Forthcoming</span><span class="ti">Flynn on NASA IMS: the validation dossier<span class="k">About 17 days of advance warning with zero false positives, and how the numbers were produced.</span></span><span class="kind">Report</span></div>
-      <div class="wrow soon" data-kind="report"><span class="date">Forthcoming</span><span class="ti">LCVDB: from 92% to 100% recall at 6.5M vectors<span class="k">Diagnosing the LSH candidate-recall ceiling, and how sharding broke it.</span></span><span class="kind">Report</span></div>
-      <div class="wrow soon" data-kind="essay"><span class="date">Forthcoming</span><span class="ti">The null baseline is mandatory<span class="k">A celebrated 98.68% result, matched by a zero-parameter identity function, and the rule the lab adopted because of it.</span></span><span class="kind">Essay</span></div>
-      <div class="wrow soon" data-kind="essay"><span class="date">Forthcoming</span><span class="ti">Determinism starts in the silicon<span class="k">Why guarantees have to be designed into the hardware from the start.</span></span><span class="kind">Essay</span></div>
-      <div class="wrow soon" data-kind="essay"><span class="date">Forthcoming</span><span class="ti">The case for research that emits companies<span class="k">The spinout thesis: the parent sells a methodology, and each spinout sells a product.</span></span><span class="kind">Essay</span></div>
-      <div class="wrow soon" data-kind="labnote"><span class="date">Forthcoming</span><span class="ti">SSTT: classifying images with zero parameters<span class="k">Ternary signatures, an inverted index, and topological ranking.</span></span><span class="kind">Lab note · SSTT</span></div>
-      <div class="wrow soon" data-kind="labnote"><span class="date">Forthcoming</span><span class="ti">reflex-os and Flynn: where the certification boundary sits<span class="k">How the adaptive layer and the deterministic layer each run on their own side of the boundary.</span></span><span class="kind">Lab note · reflex-os</span></div>
+      <div class="wrow soon" data-kind="report"><span class="date">In preparation</span><span class="ti">Flynn: equipment-health monitoring on NASA IMS<span class="k">Early fault detection with zero false positives, and how the numbers were produced.</span></span><span class="kind">Report</span></div>
+      <div class="wrow soon" data-kind="report"><span class="date">In preparation</span><span class="ti">LCVDB: scaling vector retrieval<span class="k">Perfect recall across 6.5 million vectors, and what it took to get there.</span></span><span class="kind">Report</span></div>
+      <div class="wrow soon" data-kind="report"><span class="date">In preparation</span><span class="ti">The Reflex: perception in peripheral hardware<span class="k">Wireless-signal classification at 430 Hz, and the two ideas that failed.</span></span><span class="kind">Report</span></div>
+      <div class="wrow soon" data-kind="essay"><span class="date">In preparation</span><span class="ti">The null baseline is mandatory<span class="k">A celebrated 98.68% result, matched by a zero-parameter identity function, and the rule the lab adopted because of it.</span></span><span class="kind">Essay</span></div>
+      <div class="wrow soon" data-kind="essay"><span class="date">In preparation</span><span class="ti">Determinism starts in the silicon<span class="k">Guarantees belong in the hardware from the first design decision.</span></span><span class="kind">Essay</span></div>
+      <div class="wrow soon" data-kind="essay"><span class="date">In preparation</span><span class="ti">A lab that ships companies<span class="k">The parent sells a method. Each graduate sells a product.</span></span><span class="kind">Essay</span></div>
+      <div class="wrow soon" data-kind="labnote"><span class="date">In preparation</span><span class="ti">SSTT: classification with zero learned parameters<span class="k">A millisecond per image on ordinary hardware.</span></span><span class="kind">Lab note · SSTT</span></div>
+      <div class="wrow soon" data-kind="labnote"><span class="date">In preparation</span><span class="ti">Mogwai: language on a microcontroller<span class="k">4.3 ms per command, with host and device in exact agreement.</span></span><span class="kind">Lab note · Mogwai</span></div>
+      <div class="wrow soon" data-kind="labnote"><span class="date">In preparation</span><span class="ti">reflex-os and Flynn: where the certification boundary sits<span class="k">How the adaptive layer and the deterministic layer each keep to their own side.</span></span><span class="kind">Lab note · reflex-os</span></div>
     </div>
   </div>
 </section>
@@ -76,7 +82,7 @@
 <section class="section">
   <div class="wrap">
     <div class="cta-band reveal">
-      <div><div class="eyebrow">Get notified</div><h2>New essays and lab notes, when they ship.</h2><p>Email us and we'll tell you when something is published.</p></div>
+      <div><div class="eyebrow">Get notified</div><h2>New reports, when they ship.</h2><p>Email us and we'll tell you when something is published.</p></div>
       <a class="btn" href="mailto:hello@entromorphic.com?subject=Notify%20me%20when%20you%20publish">Notify me</a>
     </div>
   </div>

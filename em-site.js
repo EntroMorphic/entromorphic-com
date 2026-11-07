@@ -96,10 +96,10 @@
   /* ---------- hero preview (home) + orb characters ---------- */
   const heroPreviews = {
     Research: { h: "The thesis, and the method.", s: "Why the work exists, and how a project earns its wings." },
-    Projects: { h: "Active work, in the lab.", s: "Every project carries its place in the lifecycle." },
-    Companies: { h: "What graduates from the lab.", s: "When a validated artifact meets real demand, it becomes a company." },
-    Writing: { h: "One publication, three collections.", s: "Essays, lab notes and reports." },
-    About: { h: "The people, and the model.", s: "Who runs the lab, and how it is funded." },
+    Projects: { h: "Fourteen projects in the lab.", s: "Each with its stage and the result it stands on." },
+    Companies: { h: "What graduates from the lab.", s: "Flynn is the first." },
+    Writing: { h: "The research record.", s: "Reports, lab notes and essays." },
+    About: { h: "The people, and the model.", s: "Who runs the lab, and how the work is funded." },
   };
   let heroOrig = null, heroSwapT = null;
   function swapHero(h, s, isHTML) {

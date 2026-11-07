@@ -4,14 +4,18 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Projects — EntroMorphic</title>
-<meta name="description" content="Fourteen active projects at EntroMorphic, each with its place in the research-to-spinout lifecycle." />
+<meta name="description" content="Fourteen projects at EntroMorphic, each with its stage and the result it stands on." />
 <link rel="canonical" href="https://entromorphic.com/Projects.html" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="EntroMorphic" />
 <meta property="og:title" content="Projects — EntroMorphic" />
-<meta property="og:description" content="Fourteen active projects, each with its place in the research-to-spinout lifecycle." />
+<meta property="og:description" content="Fourteen projects, each with its stage and the result it stands on." />
 <meta property="og:url" content="https://entromorphic.com/Projects.html" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="https://entromorphic.com/og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="EntroMorphic: Entropy is structure. Bare-metal machine intelligence." />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="theme-color" content="#000000" />
 <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,93 +51,93 @@
 <header class="pagehead">
   <div class="wrap">
     <div class="crumb">Projects</div>
-    <h1>Active work, in the lab.</h1>
-    <p class="intro">Fourteen projects, each tagged with its stage in the research-to-spinout lifecycle. If one of them maps to a problem you have, let's talk.</p>
+    <h1>Fourteen projects in the lab.</h1>
+    <p class="intro">Each card shows the project's stage and the result it stands on. Public projects link to their code. If one of them maps to a problem you have, bring it to us.</p>
   </div>
 </header>
 
 <section class="section tight">
   <div class="wrap">
-    <div class="legend reveal" aria-label="Status key">
+    <div class="legend reveal" aria-label="Stages">
       <span class="tag research"><span class="dot"></span>Research</span>
       <span class="tag prototype"><span class="dot"></span>Prototype</span>
       <span class="tag validation"><span class="dot"></span>Validation</span>
-      <span class="tag graduating"><span class="dot"></span>Graduating</span>
+      <span class="tag graduating"><span class="dot"></span>Commercialize</span>
     </div>
     <div class="projgrid reveal">
       <article class="proj">
-        <div class="top"><h2 class="name">LCVDB</h2><span class="tag validation"><span class="dot"></span>Validation</span></div>
-        <p class="brief">A ternary vector database. Sharding broke the LSH candidate-recall ceiling and took held-out recall from 92% to 100%.</p>
-        <div class="foot"><span class="fact">100% R@1 · 6.5M vectors</span></div>
+        <div class="top"><h2 class="name">LCVDB<span class="field">Vector retrieval</span></h2><span class="tag validation"><span class="dot"></span>Validation</span></div>
+        <p class="brief">Similarity search across millions of vectors, in a compact footprint.</p>
+        <div class="foot"><span class="fact">Reported: 100% recall@1 · 6.5M vectors</span></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">The Reflex</h2><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
+        <div class="top"><h2 class="name">The Reflex<span class="field">Signal perception</span></h2><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
         <p class="brief">Classifies wireless signals inside a microcontroller's peripheral hardware and remembers what it has seen. Direct measurement always has the final word.</p>
-        <div class="foot"><span class="fact">Reported: 430 Hz classification in peripheral hardware</span></div>
+        <div class="foot"><span class="fact">Reported: 430 Hz classification in peripheral hardware</span><a class="tlink" href="https://github.com/EntroMorphic/the-reflex" target="_blank" rel="noopener" aria-label="The Reflex source code on GitHub (opens in a new tab)">Code <span class="arw" aria-hidden="true">↗</span></a></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">reflex-os</h2><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
-        <p class="brief">A ternary soft-silicon operating system for ESP32-C6 (RISC-V) and ESP32 (Xtensa). It is the adaptive layer, built to run alongside Flynn's deterministic core across a clean certification boundary.</p>
-        <div class="foot"><span class="fact">Hardware-validated</span></div>
+        <div class="top"><h2 class="name">Mogwai<span class="field">Language interfaces</span></h2><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
+        <p class="brief">Turns short natural-language commands into device actions on a microcontroller, with every decision deterministic and traceable.</p>
+        <div class="foot"><span class="fact">Reported: 4.3 ms per command · stock ESP32</span><a class="tlink" href="https://github.com/EntroMorphic/mogwai" target="_blank" rel="noopener" aria-label="Mogwai source code on GitHub (opens in a new tab)">Code <span class="arw" aria-hidden="true">↗</span></a></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">SSTT</h2><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
-        <p class="brief">Signature Search &amp; Ternary Topology: a zero-parameter image classifier that runs on integer table lookups small enough to fit in L2 cache.</p>
-        <div class="foot"><span class="fact">97.53% MNIST · ~1 ms</span></div>
+        <div class="top"><h2 class="name">SSTT<span class="field">Classification</span></h2><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
+        <p class="brief">Image classification in about a millisecond on ordinary hardware.</p>
+        <div class="foot"><span class="fact">Reported: zero learned parameters · 97.53% on MNIST</span><a class="tlink" href="https://github.com/EntroMorphic/sstt" target="_blank" rel="noopener" aria-label="SSTT source code on GitHub (opens in a new tab)">Code <span class="arw" aria-hidden="true">↗</span></a></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">Mogwai</h2><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
-        <p class="brief">Natural-language control for ESP32-class hardware, using twin-ternary nearest-neighbour routing over a small intent set.</p>
-        <div class="foot"><span class="fact">Zero float · zero learned parameters</span></div>
+        <div class="top"><h2 class="name">reflex-os<span class="field">Embedded systems</span></h2><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
+        <p class="brief">An operating environment that runs machine intelligence on microcontrollers, alongside Flynn's deterministic core.</p>
+        <div class="foot"><span class="fact">Hardware-validated on ESP32-C6 and ESP32</span><a class="tlink" href="https://github.com/EntroMorphic/reflex-os" target="_blank" rel="noopener" aria-label="reflex-os source code on GitHub (opens in a new tab)">Code <span class="arw" aria-hidden="true">↗</span></a></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">trix-z</h2><span class="tag research"><span class="dot"></span>Research</span></div>
-        <p class="brief">A ternary routing transformer that behaves as a discrete program selector. Ternary routing outperformed binary routing and dense baselines, and stayed robust under data saturation.</p>
+        <div class="top"><h2 class="name">trix-z<span class="field">Routing</span></h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">A study of how routing decisions select programs inside a model. Discrete routing proved stronger and steadier than binary and dense alternatives.</p>
         <div class="foot"><span class="fact">MNIST · Fashion-MNIST · CIFAR-10</span></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">FLYNNCONCEIVABLE</h2><span class="tag research"><span class="dot"></span>Research</span></div>
-        <p class="brief">A neural network that implements a 6502 CPU exactly, verified across every tested input combination.</p>
-        <div class="foot"><span class="fact">100% · 460K+ combinations</span></div>
+        <div class="top"><h2 class="name">FLYNNCONCEIVABLE<span class="field">Exact computation</span></h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">A neural network that reproduces a 6502 processor exactly.</p>
+        <div class="foot"><span class="fact">Reported: 100% across 460K+ verified combinations</span></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">Spline-6502</h2><span class="tag research"><span class="dot"></span>Research</span></div>
-        <p class="brief">The same 6502, rebuilt from splines at full accuracy.</p>
-        <div class="foot"><span class="fact">1198× · zero accuracy loss</span></div>
+        <div class="top"><h2 class="name">Spline-6502<span class="field">Compression</span></h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">The same 6502, rebuilt at a fraction of the size with full accuracy.</p>
+        <div class="foot"><span class="fact">Reported: 1198× smaller · zero accuracy loss</span></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">Hollywood Squares OS</h2><span class="tag research"><span class="dot"></span>Research</span></div>
-        <p class="brief">Deterministic message-passing coordination between processes.</p>
+        <div class="top"><h2 class="name">Hollywood Squares OS<span class="field">Coordination</span></h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">Deterministic coordination between processes, so the same inputs always produce the same schedule.</p>
         <div class="foot"><span class="fact">Deterministic by construction</span></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">L-cache vector DB</h2><span class="tag research"><span class="dot"></span>Research</span></div>
-        <p class="brief">A vector database designed to live entirely in CPU cache, built on MTFP7, a custom 7-trit floating-point format.</p>
-        <div class="foot"><span class="fact">Ternary · MTFP7</span></div>
+        <div class="top"><h2 class="name">L-cache vector DB<span class="field">Vector retrieval</span></h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">A vector database small enough to live entirely in a processor's cache.</p>
+        <div class="foot"><span class="fact">Cache-resident by design</span></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">NeoGPU</h2><span class="tag research"><span class="dot"></span>Research</span></div>
-        <p class="brief">An ARM NEON-optimised inference runtime for Raspberry Pi 4–class hardware.</p>
-        <div class="foot"><span class="fact">Pi 4 · ARM NEON</span></div>
+        <div class="top"><h2 class="name">NeoGPU<span class="field">Inference runtime</span></h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">Fast, reproducible inference on Raspberry Pi 4–class hardware.</p>
+        <div class="foot"><span class="fact">Target: Pi 4 · ARM</span></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">G.O.O.N.I.E.S</h2><span class="tag research"><span class="dot"></span>Research</span></div>
-        <p class="brief">A DNS for hardware components: hierarchical name resolution over a chip's memory-mapped I/O surface.</p>
-        <div class="foot"><span class="fact">Hierarchical · MMIO</span></div>
+        <div class="top"><h2 class="name">G.O.O.N.I.E.S<span class="field">Hardware naming</span></h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">A naming system for the components inside a chip, so software can find hardware the way the web finds hosts.</p>
+        <div class="foot"><span class="fact">Hierarchical name resolution</span></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">metal99</h2><span class="tag research"><span class="dot"></span>Research</span></div>
-        <p class="brief">A bare-metal C99 substrate for ESP32-S3-class boards.</p>
-        <div class="foot"><span class="fact">C99 · bare metal · ESP32-S3</span></div>
+        <div class="top"><h2 class="name">metal99<span class="field">Bare-metal platform</span></h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">The bare-metal foundation the lab's embedded work runs on.</p>
+        <div class="foot"><span class="fact">ESP32-S3-class boards</span><a class="tlink" href="https://github.com/EntroMorphic/metal99" target="_blank" rel="noopener" aria-label="metal99 source code on GitHub (opens in a new tab)">Code <span class="arw" aria-hidden="true">↗</span></a></div>
       </article>
       <article class="proj">
-        <div class="top"><h2 class="name">USLA</h2><span class="tag research"><span class="dot"></span>Research</span></div>
-        <p class="brief">Unified Spline-LUT Architecture: models constructed directly from LCVDB topology, with spline control points as the trainable surface. Paused while other streams take priority.</p>
-        <div class="foot"><span class="fact">Spline-interpolated LUTs</span></div>
+        <div class="top"><h2 class="name">USLA<span class="field">Architecture</span></h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">A unified architecture that builds models directly from LCVDB's structure. Paused while other streams take priority.</p>
+        <div class="foot"><span class="fact">Paused</span></div>
       </article>
       <article class="proj next">
         <h2 class="name">Next project</h2>
-        <p class="brief">The lifecycle is designed to keep the pipeline full. New in-lab work slots in here.</p>
+        <p class="brief">The pipeline stays full by design. A sponsored problem starts here.</p>
         <div class="foot"><a class="tlink" href="About.html#work">Sponsor a problem <span class="arw" aria-hidden="true">→</span></a></div>
       </article>
     </div>
@@ -143,8 +147,8 @@
 <section class="section">
   <div class="wrap">
     <div class="cta-band reveal">
-      <div><div class="eyebrow">Lead a stream</div><h2>Paid research on problems that matter to you.</h2><p>Sponsors see results as they happen and get first look when work graduates.</p></div>
-      <a class="btn" href="About.html#work">Work with us</a>
+      <div><div class="eyebrow">Sponsor a stream</div><h2>Fund the problem you care about.</h2><p>Sponsors set the question and see results as they're measured. They also get first look at anything that graduates.</p></div>
+      <a class="btn" href="About.html#work">Start a conversation</a>
     </div>
   </div>
 </section>
