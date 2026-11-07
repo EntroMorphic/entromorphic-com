@@ -22,3 +22,4 @@ Rules the code relies on:
 - Keep nav and footer identical on every page; the router only swaps `<main>`.
 - Put all CSS in `em-styles.css`.
 - `.real-button` must stay above `.button` (z-index) or the buttons stop responding to hover and clicks.
+- `404.html` carries `<base href="/">` because GitHub Pages serves it at whatever URL was missing; without it, deep URLs would break its CSS and links. (The design-project copy omits this line so it previews correctly there.)
