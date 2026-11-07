@@ -159,8 +159,6 @@ nav.site.open .menu-toggle .bars::after{transform:translateY(-6px) rotate(-45deg
 @keyframes pbHue{0%,50%{color:var(--accent)}66%{color:#c39bb0}100%{color:var(--orange)}}
 .proofbar .cell .k{font-family:var(--mono);font-size:26px;color:var(--head)}
 .proofbar .cell .l{margin-top:6px;font-size:13.5px;color:var(--dim);letter-spacing:.02em}
-.proofbar .cell .src{position:relative;z-index:1;margin-bottom:8px;font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
-.proofbar .cell .src.hot{color:var(--orange)}
 
 /* ---- Page header (interior) ---- */
 .pagehead{position:relative;padding:88px 0 40px}
@@ -216,7 +214,6 @@ nav.site.open .menu-toggle .bars::after{transform:translateY(-6px) rotate(-45deg
 .lc{border:1px solid var(--line);background:var(--panel);padding:28px 24px}
 .lc .ph{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
 .lc .d{font-size:15px;color:var(--dim);line-height:1.6}
-.lc.on{border-color:var(--line2);box-shadow:inset 0 0 0 1px rgba(91,157,255,0.16)}
 
 /* ---- Companies / spinout card ---- */
 .spinout{border:1px solid var(--line2);background:linear-gradient(180deg,rgba(17,18,21,0.9),rgba(10,11,13,0.9));border-radius:6px;overflow:hidden;display:grid;grid-template-columns:1.1fr 0.9fr}
