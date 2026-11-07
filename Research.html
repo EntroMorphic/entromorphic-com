@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Research — EntroMorphic</title>
+<meta name="description" content="EntroMorphic's research position and the four-stage lifecycle every project moves through, from research to spinout." />
+<link rel="canonical" href="https://entromorphic.com/Research.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="EntroMorphic" />
+<meta property="og:title" content="Research — EntroMorphic" />
+<meta property="og:description" content="The research position, the research-to-spinout lifecycle, and the results the lab stands behind." />
+<meta property="og:url" content="https://entromorphic.com/Research.html" />
+<meta name="twitter:card" content="summary" />
+<meta name="theme-color" content="#000000" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="em-styles.css" />
+<script type="importmap">
+{"imports":{"three":"https://unpkg.com/three@0.160.0/build/three.module.js","three/addons/":"https://unpkg.com/three@0.160.0/examples/jsm/"}}
+</script>
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+<div class="field-bg"></div>
+<div class="grid-bg"></div>
+<div class="orb-layer" aria-hidden="true"><div class="orb"><div class="ring"><canvas id="c1"></canvas></div></div></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<nav class="site" aria-label="Main">
+  <a class="brand" href="index.html"><span class="dotmark" aria-hidden="true"></span>ENTROMORPHIC <small>Research</small></a>
+  <div class="links" id="site-links">
+    <a href="index.html" data-key="Home">Home</a>
+    <a href="Research.html" data-key="Research">Research</a>
+    <a href="Projects.html" data-key="Projects">Projects</a>
+    <a href="Companies.html" data-key="Companies">Companies</a>
+    <a href="Writing.html" data-key="Writing">Writing</a>
+    <a href="About.html" data-key="About">About</a>
+    <a class="m-only" href="About.html#work">Work with us</a>
+  </div>
+  <div class="nav-cta"><a class="btn" href="About.html#work">Get in</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-links" aria-label="Open menu"><span class="bars"></span></button></div>
+</nav>
+
+<main class="view" id="view" data-view="research" tabindex="-1">
+<header class="pagehead">
+  <div class="wrap">
+    <div class="crumb">Research</div>
+    <h1>The thesis, and how the lab works.</h1>
+    <p class="intro">Why the work exists. Every project and every company the lab produces applies the position stated here.</p>
+  </div>
+</header>
+
+<section class="section tight">
+  <div class="wrap">
+    <div class="twocol">
+      <div class="reveal panel-read"><div class="eyebrow">Thesis</div><h2 class="mt-12">The research position.</h2></div>
+      <div class="reveal panel-read">
+        <p class="lede">The systems that run the physical world, from aircraft to industrial equipment to medical devices, need machine intelligence that is <em>deterministic, auditable, and small enough for the hardware they already carry</em>.</p>
+        <p class="muted mt-20">EntroMorphic builds that intelligence. We research methods that make on-device inference fit in kilobytes, run on microcontrollers and stand up to certification, and we prove each result by shipping it in a product.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<section class="section" id="methodology">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="t"><div class="eyebrow">Methodology</div><h2>The research-to-spinout lifecycle.</h2><p>Every project moves through four stages. A project that stalls at a stage is retired.</p></div>
+    </div>
+    <ol class="steps reveal">
+      <li class="step"><div class="idx" aria-hidden="true">01</div><div><h3>Research</h3><p>We take a hard, specific problem in constrained or safety-critical compute and fund it through paid sponsorship or open-source work. The output is understanding, published openly where possible.</p></div></li>
+      <li class="step"><div class="idx" aria-hidden="true">02</div><div><h3>Prototype</h3><p>Understanding becomes an artifact: a working system the lab can measure and stand behind. To advance, it must be small and deterministic.</p></div></li>
+      <li class="step"><div class="idx" aria-hidden="true">03</div><div><h3>Validation</h3><p>The prototype is hardened against the real deployment surface and independently verified. This is where a research result becomes a defensible technical claim.</p></div></li>
+      <li class="step"><div class="idx" aria-hidden="true">04</div><div><h3>Graduation</h3><p>A validated artifact with real demand becomes a standalone company with its own domain and team. The lab keeps provenance and a stake.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<section class="section" id="artifacts">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="t"><div class="eyebrow">Validated artifacts</div><h2>Results the lab stands behind.</h2><p>Each result links to its full report in Writing as the report is published.</p></div>
+      <a class="tlink" href="Writing.html">All writing <span class="arw" aria-hidden="true">→</span></a>
+    </div>
+    <div class="cardgrid c2 reveal">
+      <div class="card"><div class="n">ARTIFACT · FLYNN</div><h3>8,480-byte equipment-health monitor</h3><p>Single-file C99, zero heap after init, bit-identical across silicon. On the NASA IMS bearing dataset: zero false positives over 120 hours and about 17 days of advance warning. Graduated as Flynn.</p><a class="tlink" href="Companies.html">See Flynn <span class="arw" aria-hidden="true">→</span></a></div>
+      <div class="card"><div class="n">ARTIFACT · LCVDB</div><h3>100% recall@1 at 6.5M vectors</h3><p>A ternary vector database. Sharding broke the LSH candidate-recall ceiling, taking held-out recall from 92% to 100%.</p><span class="pending">Report forthcoming</span></div>
+      <div class="card"><div class="n">ARTIFACT · GUANACO</div><h3>Lossless 3.01× LUT compression</h3><p>A Ternary-3 lookup table on LFM2.5-350M: 100% average similarity to the original, and faster: 293.8 tok/s against a 278.8 baseline.</p><span class="pending">Report forthcoming</span></div>
+      <div class="card"><div class="n">ARTIFACT · SSTT</div><h3>Zero-parameter classification</h3><p>97.53% on MNIST and 86.54% on Fashion-MNIST in about a millisecond, using only ternary signatures and integer table lookups.</p><span class="pending">Report forthcoming</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <div><div class="eyebrow">Provenance</div><h2>Every claim gets a report.</h2><p>Each result on this page is one the lab stands behind. The full reports are being written now.</p></div>
+      <a class="btn" href="Projects.html">See active work</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div class="col"><div class="wm">ENTROMORPHIC</div><p class="about">An independent research lab building machine intelligence for equipment that has to be right the first time.</p></div>
+      <div class="col"><p class="fh">Research</p><a href="Research.html">Thesis</a><a href="Research.html#methodology">Methodology</a><a href="Research.html#artifacts">Validated artifacts</a></div>
+      <div class="col"><p class="fh">Lab</p><a href="Projects.html">Projects</a><a href="Companies.html">Companies</a><a href="Writing.html">Writing</a></div>
+      <div class="col"><p class="fh">Company</p><a href="About.html">About</a><a href="About.html#work">Work with us</a><a href="mailto:hello@entromorphic.com">hello@entromorphic.com</a></div>
+    </div>
+    <div class="bottom"><span>© 2025–2026 EntroMorphic</span><span>Independent research lab</span></div>
+  </div>
+</footer>
+<script src="em-consciousness.js"></script>
+<script src="em-site.js"></script>
+<script src="em-router.js"></script>
+<script type="module" src="em-orb.js"></script>
+</body>
+</html>

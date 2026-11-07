@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projects — EntroMorphic</title>
+<meta name="description" content="Fourteen active projects at EntroMorphic, each with its place in the research-to-spinout lifecycle." />
+<link rel="canonical" href="https://entromorphic.com/Projects.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="EntroMorphic" />
+<meta property="og:title" content="Projects — EntroMorphic" />
+<meta property="og:description" content="Fourteen active projects, each with its place in the research-to-spinout lifecycle." />
+<meta property="og:url" content="https://entromorphic.com/Projects.html" />
+<meta name="twitter:card" content="summary" />
+<meta name="theme-color" content="#000000" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="em-styles.css" />
+<script type="importmap">
+{"imports":{"three":"https://unpkg.com/three@0.160.0/build/three.module.js","three/addons/":"https://unpkg.com/three@0.160.0/examples/jsm/"}}
+</script>
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+<div class="field-bg"></div>
+<div class="grid-bg"></div>
+<div class="orb-layer" aria-hidden="true"><div class="orb"><div class="ring"><canvas id="c1"></canvas></div></div></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<nav class="site" aria-label="Main">
+  <a class="brand" href="index.html"><span class="dotmark" aria-hidden="true"></span>ENTROMORPHIC <small>Research</small></a>
+  <div class="links" id="site-links">
+    <a href="index.html" data-key="Home">Home</a>
+    <a href="Research.html" data-key="Research">Research</a>
+    <a href="Projects.html" data-key="Projects">Projects</a>
+    <a href="Companies.html" data-key="Companies">Companies</a>
+    <a href="Writing.html" data-key="Writing">Writing</a>
+    <a href="About.html" data-key="About">About</a>
+    <a class="m-only" href="About.html#work">Work with us</a>
+  </div>
+  <div class="nav-cta"><a class="btn" href="About.html#work">Get in</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-links" aria-label="Open menu"><span class="bars"></span></button></div>
+</nav>
+
+<main class="view" id="view" data-view="projects" tabindex="-1">
+<header class="pagehead">
+  <div class="wrap">
+    <div class="crumb">Projects</div>
+    <h1>Active work, in the lab.</h1>
+    <p class="intro">Fourteen projects, each tagged with its stage in the research-to-spinout lifecycle. If one of them maps to a problem you have, let's talk.</p>
+  </div>
+</header>
+
+<section class="section tight">
+  <div class="wrap">
+    <div class="legend reveal" aria-label="Status key">
+      <span class="tag research"><span class="dot"></span>Research</span>
+      <span class="tag prototype"><span class="dot"></span>Prototype</span>
+      <span class="tag validation"><span class="dot"></span>Validation</span>
+      <span class="tag graduating"><span class="dot"></span>Graduating</span>
+    </div>
+    <div class="projgrid reveal">
+      <article class="proj">
+        <div class="top"><h2 class="name">LCVDB</h2><span class="tag validation"><span class="dot"></span>Validation</span></div>
+        <p class="brief">A ternary vector database. Sharding broke the LSH candidate-recall ceiling and took held-out recall from 92% to 100%.</p>
+        <div class="foot"><span class="fact">100% R@1 · 6.5M vectors</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">Guanaco</h2><span class="tag validation"><span class="dot"></span>Validation</span></div>
+        <p class="brief">Ternary lookup-table compression for language models. On LFM2.5-350M it shrinks the model 3× and runs faster, with identical output.</p>
+        <div class="foot"><span class="fact">3.01× · lossless · 293.8 tok/s</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">reflex-os</h2><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
+        <p class="brief">A ternary soft-silicon operating system for ESP32-C6 (RISC-V) and ESP32 (Xtensa). It is the adaptive layer, built to run alongside Flynn's deterministic core across a clean certification boundary.</p>
+        <div class="foot"><span class="fact">Hardware-validated</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">SSTT</h2><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
+        <p class="brief">Signature Search &amp; Ternary Topology: a zero-parameter image classifier that runs on integer table lookups small enough to fit in L2 cache.</p>
+        <div class="foot"><span class="fact">97.53% MNIST · ~1 ms</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">Mogwai</h2><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
+        <p class="brief">Natural-language control for ESP32-class hardware, using twin-ternary nearest-neighbour routing over a small intent set.</p>
+        <div class="foot"><span class="fact">Zero float · zero learned parameters</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">trix-z</h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">A ternary routing transformer that behaves as a discrete program selector. Ternary routing outperformed binary routing and dense baselines, and stayed robust under data saturation.</p>
+        <div class="foot"><span class="fact">MNIST · Fashion-MNIST · CIFAR-10</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">FLYNNCONCEIVABLE</h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">A neural network that implements a 6502 CPU exactly, verified across every tested input combination.</p>
+        <div class="foot"><span class="fact">100% · 460K+ combinations</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">Spline-6502</h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">The same 6502, rebuilt from splines at full accuracy.</p>
+        <div class="foot"><span class="fact">1198× · zero accuracy loss</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">Hollywood Squares OS</h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">Deterministic message-passing coordination between processes.</p>
+        <div class="foot"><span class="fact">Deterministic by construction</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">L-cache vector DB</h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">A vector database designed to live entirely in CPU cache, built on MTFP7, a custom 7-trit floating-point format.</p>
+        <div class="foot"><span class="fact">Ternary · MTFP7</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">NeoGPU</h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">An ARM NEON-optimised inference runtime for Raspberry Pi 4–class hardware.</p>
+        <div class="foot"><span class="fact">Pi 4 · ARM NEON</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">G.O.O.N.I.E.S</h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">A DNS for hardware components: hierarchical name resolution over a chip's memory-mapped I/O surface.</p>
+        <div class="foot"><span class="fact">Hierarchical · MMIO</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">metal99</h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">A bare-metal C99 substrate for ESP32-S3-class boards.</p>
+        <div class="foot"><span class="fact">C99 · bare metal · ESP32-S3</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h2 class="name">USLA</h2><span class="tag research"><span class="dot"></span>Research</span></div>
+        <p class="brief">Unified Spline-LUT Architecture: models constructed directly from LCVDB topology, with spline control points as the trainable surface. Paused while other streams take priority.</p>
+        <div class="foot"><span class="fact">Spline-interpolated LUTs</span></div>
+      </article>
+      <article class="proj next">
+        <h2 class="name">Next project</h2>
+        <p class="brief">The lifecycle is designed to keep the pipeline full. New in-lab work slots in here.</p>
+        <div class="foot"><a class="tlink" href="About.html#work">Sponsor a problem <span class="arw" aria-hidden="true">→</span></a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <div><div class="eyebrow">Lead a stream</div><h2>Paid research on problems that matter to you.</h2><p>Sponsors see results as they happen and get first look when work graduates.</p></div>
+      <a class="btn" href="About.html#work">Work with us</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div class="col"><div class="wm">ENTROMORPHIC</div><p class="about">An independent research lab building machine intelligence for equipment that has to be right the first time.</p></div>
+      <div class="col"><p class="fh">Research</p><a href="Research.html">Thesis</a><a href="Research.html#methodology">Methodology</a><a href="Research.html#artifacts">Validated artifacts</a></div>
+      <div class="col"><p class="fh">Lab</p><a href="Projects.html">Projects</a><a href="Companies.html">Companies</a><a href="Writing.html">Writing</a></div>
+      <div class="col"><p class="fh">Company</p><a href="About.html">About</a><a href="About.html#work">Work with us</a><a href="mailto:hello@entromorphic.com">hello@entromorphic.com</a></div>
+    </div>
+    <div class="bottom"><span>© 2025–2026 EntroMorphic</span><span>Independent research lab</span></div>
+  </div>
+</footer>
+<script src="em-consciousness.js"></script>
+<script src="em-site.js"></script>
+<script src="em-router.js"></script>
+<script type="module" src="em-orb.js"></script>
+</body>
+</html>

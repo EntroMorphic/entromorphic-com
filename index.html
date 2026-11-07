@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>EntroMorphic — an independent research lab</title>
+<meta name="description" content="EntroMorphic is an independent research lab. We surface the latent intelligence in the silicon you already have." />
+<link rel="canonical" href="https://entromorphic.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="EntroMorphic" />
+<meta property="og:title" content="EntroMorphic — an independent research lab" />
+<meta property="og:description" content="Deterministic, auditable machine intelligence for constrained and safety-critical hardware." />
+<meta property="og:url" content="https://entromorphic.com/" />
+<meta name="twitter:card" content="summary" />
+<meta name="theme-color" content="#000000" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="em-styles.css" />
+<script type="importmap">
+{"imports":{"three":"https://unpkg.com/three@0.160.0/build/three.module.js","three/addons/":"https://unpkg.com/three@0.160.0/examples/jsm/"}}
+</script>
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+<div class="field-bg"></div>
+<div class="grid-bg"></div>
+<div class="orb-layer" aria-hidden="true"><div class="orb"><div class="ring"><canvas id="c1"></canvas></div></div></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<nav class="site" aria-label="Main">
+  <a class="brand" href="index.html"><span class="dotmark" aria-hidden="true"></span>ENTROMORPHIC <small>Research</small></a>
+  <div class="links" id="site-links">
+    <a href="index.html" data-key="Home">Home</a>
+    <a href="Research.html" data-key="Research">Research</a>
+    <a href="Projects.html" data-key="Projects">Projects</a>
+    <a href="Companies.html" data-key="Companies">Companies</a>
+    <a href="Writing.html" data-key="Writing">Writing</a>
+    <a href="About.html" data-key="About">About</a>
+    <a class="m-only" href="About.html#work">Work with us</a>
+  </div>
+  <div class="nav-cta"><a class="btn" href="About.html#work">Get in</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-links" aria-label="Open menu"><span class="bars"></span></button></div>
+</nav>
+
+<main class="view" id="view" data-view="home" tabindex="-1">
+<header class="hero">
+  <div class="wrap">
+    <div class="col">
+      <div class="eyebrow">Independent research lab</div>
+      <h1><span class="ln">Entropy</span> <span class="ln hot">is</span> <span class="ln accent">structure.</span></h1>
+      <p class="hero-subhead"><span class="hot">Bare-metal</span> <span>machine intelligence.</span></p>
+      <p class="sub">We surface the latent intelligence in the silicon you already have.</p>
+      <div class="cta-row">
+        <a class="btn" href="About.html#work">Bring us a problem</a>
+        <a class="tlink hot spinout-link" href="Companies.html">See our first spinout <span class="arw" aria-hidden="true">→</span><span class="flynn-reveal" aria-hidden="true">FlynnComm: get in like Flynn!</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="proofbar" aria-label="The lab in numbers">
+  <div class="wrap"><div class="inner">
+    <div class="cell"><div class="k">8,480</div><div class="l">Bytes in Flynn, our first graduate</div></div>
+    <div class="cell"><div class="k">0</div><div class="l">False positives in 120 hours on NASA bearing data</div></div>
+    <div class="cell"><div class="k">14</div><div class="l">Projects in the lab</div></div>
+    <div class="cell"><div class="k">2</div><div class="l">In independent validation</div></div>
+  </div></div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="t">
+        <div class="eyebrow">The thesis</div>
+        <h2>Find the structure. Build it exactly.</h2>
+        <p>Every hard problem has structure in it. We research until we find it, then build it directly into small, deterministic systems: ternary signatures, lookup tables, a few kilobytes of C. The result runs on a microcontroller, gives the same answer every time, and holds up in front of an auditor.</p>
+      </div>
+      <a class="tlink" href="Research.html">The full thesis <span class="arw" aria-hidden="true">→</span></a>
+    </div>
+    <div class="lifecycle reveal">
+      <div class="lc on"><div class="ph">01 · Research</div><div class="d">A hard problem, funded by a sponsor or worked in the open.</div></div>
+      <div class="lc on"><div class="ph">02 · Prototype</div><div class="d">A working system with numbers attached.</div></div>
+      <div class="lc"><div class="ph">03 · Validation</div><div class="d">Independent tests on the hardware it will ship on.</div></div>
+      <div class="lc"><div class="ph">04 · Graduation</div><div class="d">A company with its own name, domain and customers.</div></div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="t"><div class="eyebrow">In the lab</div><h2>Work in progress, with receipts.</h2><p>Four of the fourteen, each with its stage and the number it stands on.</p></div>
+      <a class="tlink" href="Projects.html">All 14 projects <span class="arw" aria-hidden="true">→</span></a>
+    </div>
+    <div class="projgrid reveal">
+      <article class="proj">
+        <div class="top"><h3 class="name">LCVDB</h3><span class="tag validation"><span class="dot"></span>Validation</span></div>
+        <p class="brief">A ternary vector database. Sharding lifted held-out recall from 92% to a clean 100%.</p>
+        <div class="foot"><span class="fact">100% R@1 · 6.5M vectors</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h3 class="name">Guanaco</h3><span class="tag validation"><span class="dot"></span>Validation</span></div>
+        <p class="brief">Ternary lookup-table compression for language models: 3.01× smaller, faster than the original, and lossless.</p>
+        <div class="foot"><span class="fact">3.01× · lossless · LFM2.5-350M</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h3 class="name">reflex-os</h3><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
+        <p class="brief">A ternary soft-silicon operating system for ESP32-class chips. It is the adaptive layer that runs beside Flynn's certifiable core.</p>
+        <div class="foot"><span class="fact">ESP32-C6 + ESP32 · hardware-validated</span></div>
+      </article>
+      <article class="proj">
+        <div class="top"><h3 class="name">SSTT</h3><span class="tag prototype"><span class="dot"></span>Prototype</span></div>
+        <p class="brief">Image classification with zero learned parameters: ternary signatures, an inverted index and integer lookups.</p>
+        <div class="foot"><span class="fact">97.53% MNIST · ~1 ms</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="t"><div class="eyebrow hot">Graduated</div><h2>Flynn, our first graduate.</h2><p>Flynn left the lab in 2026 and now operates as FlynnComm.</p></div>
+    </div>
+    <div class="spinout reveal">
+      <div class="body">
+        <div class="badge"><span class="dot"></span>FlynnComm · Graduated 2026 · Equipment health</div>
+        <h3>Flynn</h3>
+        <p class="desc">An equipment-health monitor in 8,480 bytes of C99. It learns the machine it watches, locks its threshold, and runs bit-identically on any silicon, entirely on the device. FlynnComm is in discussions with industrial and aerospace buyers.</p>
+        <div class="why"><b>Why it graduated</b>Buyers can check every claim themselves. On the NASA IMS bearing dataset it ran 120 hours with zero false positives and called failures about 17 days early. It is deterministic by design and built for DO-178C and IEC 61508 certification.</div>
+        <div class="actions">
+          <a class="btn" href="https://inlikeflynn.io" target="_blank" rel="noopener">inlikeflynn.io</a>
+          <a class="tlink" href="Research.html#artifacts">The research behind it <span class="arw" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="visual" data-live="https://inlikeflynn.io">
+        <div class="mark"><span class="big">8,480 bytes</span>single-file C99 · zero heap after init</div>
+        <div class="stats"><span>False positives / 120 h</span><b>0</b><span>Advance warning</span><b>~17 days</b><span>Runs on</span><b>the device</b></div>
+        <a class="visual-link" href="https://inlikeflynn.io" target="_blank" rel="noopener" aria-label="Visit inlikeflynn.io (opens in a new tab)"><span class="portal-hint">inlikeflynn.io<span class="live-tag"> · live</span> <span class="arw">↗</span></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="t"><div class="eyebrow">Writing</div><h2>The record.</h2><p>Essays argue the thesis, lab notes track the work, and reports show the results with their baselines. The first three are being written now.</p></div>
+      <a class="tlink" href="Writing.html">All writing <span class="arw" aria-hidden="true">→</span></a>
+    </div>
+    <div class="writing-list reveal">
+      <a class="wrow soon" href="Writing.html" data-kind="report"><span class="date">Forthcoming</span><span class="ti">Flynn on NASA IMS: the validation dossier<span class="k">Zero false positives over 120 hours, and about 17 days of advance warning.</span></span><span class="kind">Report</span></a>
+      <a class="wrow soon" href="Writing.html" data-kind="report"><span class="date">Forthcoming</span><span class="ti">LCVDB: from 92% to 100% recall at 6.5M vectors<span class="k">How sharding broke the candidate-recall ceiling.</span></span><span class="kind">Report</span></a>
+      <a class="wrow soon" href="Writing.html" data-kind="essay"><span class="date">Forthcoming</span><span class="ti">The null baseline is mandatory<span class="k">A 98.68% result, matched by a zero-parameter identity function.</span></span><span class="kind">Essay</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <div><div class="eyebrow">Work with us</div><h2>Bring us a problem that has to fit on the chip.</h2><p>Sponsored research on constrained and safety-critical compute. You get the lab on your problem, results as they land, and first look at anything that graduates.</p></div>
+      <a class="btn" href="About.html#work">Start the conversation</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div class="col"><div class="wm">ENTROMORPHIC</div><p class="about">An independent research lab building machine intelligence for equipment that has to be right the first time.</p></div>
+      <div class="col"><p class="fh">Research</p><a href="Research.html">Thesis</a><a href="Research.html#methodology">Methodology</a><a href="Research.html#artifacts">Validated artifacts</a></div>
+      <div class="col"><p class="fh">Lab</p><a href="Projects.html">Projects</a><a href="Companies.html">Companies</a><a href="Writing.html">Writing</a></div>
+      <div class="col"><p class="fh">Company</p><a href="About.html">About</a><a href="About.html#work">Work with us</a><a href="mailto:hello@entromorphic.com">hello@entromorphic.com</a></div>
+    </div>
+    <div class="bottom"><span>© 2025–2026 EntroMorphic</span><span>Independent research lab</span></div>
+  </div>
+</footer>
+<script src="em-consciousness.js"></script>
+<script src="em-site.js"></script>
+<script src="em-router.js"></script>
+<script type="module" src="em-orb.js"></script>
+</body>
+</html>
