@@ -4,12 +4,12 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Research — EntroMorphic</title>
-<meta name="description" content="EntroMorphic's research position and the four-stage lifecycle every project moves through, from research to spinout." />
+<meta name="description" content="How EntroMorphic works: the thesis, a four-stage method with a gate at every stage, the standards behind each number, and the results the lab stands behind." />
 <link rel="canonical" href="https://entromorphic.com/Research.html" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="EntroMorphic" />
 <meta property="og:title" content="Research — EntroMorphic" />
-<meta property="og:description" content="The research position, the research-to-spinout lifecycle, and the results the lab stands behind." />
+<meta property="og:description" content="The thesis, the method, and the results the lab stands behind." />
 <meta property="og:url" content="https://entromorphic.com/Research.html" />
 <meta name="twitter:card" content="summary" />
 <meta name="theme-color" content="#000000" />
@@ -47,18 +47,18 @@
 <header class="pagehead">
   <div class="wrap">
     <div class="crumb">Research</div>
-    <h1>The thesis, and how the lab works.</h1>
-    <p class="intro">Why the work exists. Every project and every company the lab produces applies the position stated here.</p>
+    <h1>The thesis, and the method.</h1>
+    <p class="intro">Why the work exists, and how a project earns its way out of the lab.</p>
   </div>
 </header>
 
 <section class="section tight">
   <div class="wrap">
     <div class="twocol">
-      <div class="reveal panel-read"><div class="eyebrow">Thesis</div><h2 class="mt-12">The research position.</h2></div>
+      <div class="reveal panel-read"><div class="eyebrow">Thesis</div><h2 class="mt-12">Entropy is structure.</h2></div>
       <div class="reveal panel-read">
-        <p class="lede">The systems that run the physical world, from aircraft to industrial equipment to medical devices, need machine intelligence that is <em>deterministic, auditable, and small enough for the hardware they already carry</em>.</p>
-        <p class="muted mt-20">EntroMorphic builds that intelligence. We research methods that make on-device inference fit in kilobytes, run on microcontrollers and stand up to certification, and we prove each result by shipping it in a product.</p>
+        <p class="lede">Every hard problem carries structure, including the parts that look like noise. <em>Our research names that structure precisely.</em></p>
+        <p class="muted mt-20">A structure that has been named can be built directly: small, exact and deterministic. Built that way, machine intelligence runs on the hardware already in the field and gives answers an auditor can trace.</p>
       </div>
     </div>
   </div>
@@ -69,14 +69,30 @@
 <section class="section" id="methodology">
   <div class="wrap">
     <div class="section-head reveal">
-      <div class="t"><div class="eyebrow">Methodology</div><h2>The research-to-spinout lifecycle.</h2><p>Every project moves through four stages. A project that stalls at a stage is retired.</p></div>
+      <div class="t"><div class="eyebrow">Method</div><h2>From hypothesis to working system.</h2><p>Every project moves through four stages, and each stage ends at a gate. A project that stalls at a gate is retired.</p></div>
     </div>
     <ol class="steps reveal">
-      <li class="step"><div class="idx" aria-hidden="true">01</div><div><h3>Research</h3><p>We take a hard, specific problem in constrained or safety-critical compute and fund it through paid sponsorship or open-source work. The output is understanding, published openly where possible.</p></div></li>
-      <li class="step"><div class="idx" aria-hidden="true">02</div><div><h3>Prototype</h3><p>Understanding becomes an artifact: a working system the lab can measure and stand behind. To advance, it must be small and deterministic.</p></div></li>
-      <li class="step"><div class="idx" aria-hidden="true">03</div><div><h3>Validation</h3><p>The prototype is hardened against the real deployment surface and independently verified. This is where a research result becomes a defensible technical claim.</p></div></li>
-      <li class="step"><div class="idx" aria-hidden="true">04</div><div><h3>Graduation</h3><p>A validated artifact with real demand becomes a standalone company with its own domain and team. The lab keeps provenance and a stake.</p></div></li>
+      <li class="step"><div class="idx" aria-hidden="true">01</div><div><h3>Research</h3><p>We start from a hard, specific problem in constrained or safety-critical compute and state a testable hypothesis about its structure. Sponsors fund the work, or we do it in the open.</p><p class="gate"><b>Gate</b>A hypothesis precise enough to fail.</p></div></li>
+      <li class="step"><div class="idx" aria-hidden="true">02</div><div><h3>Prototype</h3><p>The hypothesis becomes working code or hardware, with its performance measured on the hardware it targets.</p><p class="gate"><b>Gate</b>It beats the null baseline.</p></div></li>
+      <li class="step"><div class="idx" aria-hidden="true">03</div><div><h3>Validate</h3><p>Results are reproduced on real silicon and verified independently where possible. This is where a research result becomes a claim someone can rely on.</p><p class="gate"><b>Gate</b>A number the lab will put its name to.</p></div></li>
+      <li class="step"><div class="idx" aria-hidden="true">04</div><div><h3>Commercialize</h3><p>Validated work with real demand leaves the lab through licensing, partnership, or a company of its own. The lab keeps provenance and a stake.</p><p class="gate"><b>Gate</b>A customer. Flynn was the first through.</p></div></li>
     </ol>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<section class="section" id="standards">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="t"><div class="eyebrow">Standards</div><h2>How the lab keeps itself honest.</h2><p>Four rules apply to every number the lab publishes.</p></div>
+    </div>
+    <div class="cardgrid c2 reveal">
+      <div class="card"><div class="n">STANDARD 01</div><h3>Null baselines are mandatory.</h3><p>Every result is measured against the simplest method that could explain it. The rule dates from a celebrated 98.68% result that a zero-parameter identity function matched exactly.</p></div>
+      <div class="card"><div class="n">STANDARD 02</div><h3>Numbers travel with their scope.</h3><p>The dataset, the configuration and the hardware go wherever a result goes. A claim is only as good as the conditions attached to it.</p></div>
+      <div class="card"><div class="n">STANDARD 03</div><h3>Determinism is tested.</h3><p>Same input, same output, bit for bit, on every chip a system ships to. The lab checks it on the hardware itself.</p></div>
+      <div class="card"><div class="n">STANDARD 04</div><h3>Failures stay in the record.</h3><p>Ideas that underperform are reported alongside the ones that work. A research record with only good news is a sales brochure.</p></div>
+    </div>
   </div>
 </section>
 
@@ -85,14 +101,16 @@
 <section class="section" id="artifacts">
   <div class="wrap">
     <div class="section-head reveal">
-      <div class="t"><div class="eyebrow">Validated artifacts</div><h2>Results the lab stands behind.</h2><p>Each result links to its full report in Writing as the report is published.</p></div>
-      <a class="tlink" href="Writing.html">All writing <span class="arw" aria-hidden="true">→</span></a>
+      <div class="t"><div class="eyebrow">Reported results</div><h2>Results the lab stands behind.</h2><p>Each result links to its full report as the report is published.</p></div>
+      <a class="tlink" href="Writing.html">The research record <span class="arw" aria-hidden="true">→</span></a>
     </div>
     <div class="cardgrid c2 reveal">
-      <div class="card"><div class="n">ARTIFACT · FLYNN</div><h3>8,480-byte equipment-health monitor</h3><p>Single-file C99, zero heap after init, bit-identical across silicon. On the NASA IMS bearing dataset: about 17 days of advance warning with zero false positives. Graduated as Flynn.</p><a class="tlink" href="Companies.html">See Flynn <span class="arw" aria-hidden="true">→</span></a></div>
-      <div class="card"><div class="n">ARTIFACT · LCVDB</div><h3>100% recall@1 at 6.5M vectors</h3><p>A ternary vector database. Sharding broke the LSH candidate-recall ceiling, taking held-out recall from 92% to 100%.</p><span class="pending">Report forthcoming</span></div>
-      <div class="card"><div class="n">ARTIFACT · GUANACO</div><h3>Lossless 3.01× LUT compression</h3><p>A Ternary-3 lookup table on LFM2.5-350M: 100% average similarity to the original, and faster: 293.8 tok/s against a 278.8 baseline.</p><span class="pending">Report forthcoming</span></div>
-      <div class="card"><div class="n">ARTIFACT · SSTT</div><h3>Zero-parameter classification</h3><p>97.53% on MNIST and 86.54% on Fashion-MNIST in about a millisecond, using only ternary signatures and integer table lookups.</p><span class="pending">Report forthcoming</span></div>
+      <div class="card"><div class="n">FLYNN · EQUIPMENT HEALTH</div><h3>17 days of warning, zero false positives</h3><p>On NASA's IMS bearing dataset, Flynn flagged developing faults about 17 days before failure, running as 8,480 bytes of firmware on the monitored hardware.</p><a class="tlink" href="Companies.html">See Flynn <span class="arw" aria-hidden="true">→</span></a></div>
+      <div class="card"><div class="n">LCVDB · VECTOR RETRIEVAL</div><h3>100% recall@1 across 6.5M vectors</h3><p>Held-out recall rose from 92% to 100% at multimillion-vector scale, in the evaluated configuration.</p><span class="pending">Report in preparation</span></div>
+      <div class="card"><div class="n">THE REFLEX · SIGNAL PERCEPTION</div><h3>430 Hz classification in peripheral hardware</h3><p>Wireless-signal classification on an ESP32-C6, carried out by the chip's peripherals. Accuracy is 100% across the four signal patterns tested.</p><span class="pending">Paper in preparation</span></div>
+      <div class="card"><div class="n">MOGWAI · LANGUAGE INTERFACES</div><h3>4.3 ms per command on a stock ESP32</h3><p>Natural-language commands routed to device actions on the microcontroller itself, with host and device results matching exactly.</p><span class="pending">Report in preparation</span></div>
+      <div class="card"><div class="n">SSTT · CLASSIFICATION</div><h3>97.53% on MNIST with zero learned parameters</h3><p>86.54% on Fashion-MNIST from the same system, at about a millisecond per image.</p><span class="pending">Report in preparation</span></div>
+      <div class="card"><div class="n">GUANACO · MODEL COMPRESSION</div><h3>3.01× smaller, lossless</h3><p>On LFM2.5-350M, the compressed model matches the original's output and runs faster: 293.8 tokens per second against a 278.8 baseline.</p><span class="pending">Report in preparation</span></div>
     </div>
   </div>
 </section>
@@ -100,8 +118,8 @@
 <section class="section">
   <div class="wrap">
     <div class="cta-band reveal">
-      <div><div class="eyebrow">Provenance</div><h2>Every claim gets a report.</h2><p>Each result on this page is one the lab stands behind. The full reports are being written now.</p></div>
-      <a class="btn" href="Projects.html">See active work</a>
+      <div><div class="eyebrow">Work with us</div><h2>Put the method on your problem.</h2><p>You bring the problem. The lab brings its method and its standards. Results arrive as they're measured.</p></div>
+      <a class="btn" href="About.html#work">Start a conversation</a>
     </div>
   </div>
 </section>
@@ -111,7 +129,7 @@
   <div class="wrap">
     <div class="cols">
       <div class="col"><div class="wm">ENTROMORPHIC</div><p class="about">Independent research in computational intelligence, from mathematical discovery to working systems.</p></div>
-      <div class="col"><p class="fh">Research</p><a href="Research.html">Thesis</a><a href="Research.html#methodology">Methodology</a><a href="Research.html#artifacts">Validated artifacts</a></div>
+      <div class="col"><p class="fh">Research</p><a href="Research.html">Thesis</a><a href="Research.html#methodology">Method</a><a href="Research.html#artifacts">Results</a></div>
       <div class="col"><p class="fh">Lab</p><a href="Projects.html">Projects</a><a href="Companies.html">Companies</a><a href="Writing.html">Writing</a></div>
       <div class="col"><p class="fh">Company</p><a href="About.html">About</a><a href="About.html#work">Work with us</a><a href="mailto:hello@entromorphic.com">hello@entromorphic.com</a></div>
     </div>
